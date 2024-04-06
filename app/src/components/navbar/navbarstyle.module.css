@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    padding: 5vmin 10vmin;
+    background-color: rgb(67, 67, 67);
+}
+
+.navpart1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5vmin;
+}
+
+.navpart1 h1{
+    font-size: 5vmin;
+    color: white;
+}
+
+.navpart1 h1 span{
+    color: #FF4343;
+}
+
+.navpart1 input{
+    height: 5vmin;
+    width: 30vmin;
+    border: 2px solid #FF4343;
+    border-radius: 10px;
+    font-size: 2.5vmin;
+    color: black;
+}
+
+.navpart2{
+    padding: 0 65vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navpart2 Button:hover{
+    background-color: white;
+    color: #FF4343;
+}
