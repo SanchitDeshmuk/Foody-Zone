@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heroSection{
+    height: 74vmin;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.4; */
+    background-image: url('C:\Users\Sanchit Deshmukh\OneDrive\Desktop\foody-zone\app\public\images\main-image.png');
+}

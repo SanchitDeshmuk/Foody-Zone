@@ -28,11 +28,17 @@ nav{
 
 .navpart1 input{
     height: 5vmin;
-    width: 30vmin;
+    width: 40vmin;
     border: 2px solid #FF4343;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 2.5vmin;
-    color: black;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    padding: 0 1.5vmin;
+}
+
+.navpart1 input::placeholder{
+    color: white;
 }
 
 .navpart2{
