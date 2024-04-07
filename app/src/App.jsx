@@ -26,7 +26,7 @@ const App = () => {
     fetchFoodData()
   },[])
 
-  console.log(data)
+  // console.log(data)
 
   if(error){
     return <div>{error}</div>
@@ -39,7 +39,7 @@ const App = () => {
     <Navbar/>
     <main className={`${style.heroSection}`}>
     {data && data.map((value,index)=>(
-        <Card name={value['name']} key={index}/>
+        <Card name={value['name']} text={value['text']} price={`$${value['price']}.00`} image={value['image']} key={index}/>
       ))}
     </main>
   </div>;

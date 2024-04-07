@@ -1,3 +1,19 @@
-.fooddescription{
-    background-color: grey;
+.card{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: gray;
+    height: 25vmin;
+    width: 50vmin;
+    padding: 1vmin 0vmin;
+    border-radius: 25px;
+}
+
+.fooddescription button{
+    margin: 7vmin 0 0 15vmin;
+}
+
+.fooddescription button:hover{
+    background-color: white;
+    color: #FF4343;
 }

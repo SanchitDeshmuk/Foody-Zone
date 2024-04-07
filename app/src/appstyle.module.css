@@ -5,6 +5,11 @@
 }
 
 .heroSection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmin;
     height: 74vmin;
     width: 100vw;
     background-position: center;
@@ -12,3 +17,4 @@
     /* opacity: 0.4; */
     background-image: url('C:\Users\Sanchit Deshmukh\OneDrive\Desktop\foody-zone\app\public\images\main-image.png');
 }
+
